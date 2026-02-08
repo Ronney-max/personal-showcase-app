@@ -1,7 +1,8 @@
-import { useState } from "react";
+import  { useState } from "react";
+import React from "react";
 import Projectform from "./components/Projectform";
-import Projectist from "./components/Projectlist";
-import Searcbar from "./components/Searchbar";
+import Projectlist from "./components/Projectlist";
+import Searchbar from "./components/Searchbar";
 import "./App.css";
 
 function App() {
@@ -20,8 +21,8 @@ function App() {
      <div className="container">
       <h1> Project Manager</h1>
       <Projectform onAddProject={addProject} />
-      <Searcbar search={search} setSearch={setSearch} />
-      <Projectist projects={filteredProjects} />
+      <Searchbar search={search} setSearch={setSearch} />
+      <Projectlist projects={filteredProjects} />
      </div>
   );
 }
