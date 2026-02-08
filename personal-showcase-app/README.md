@@ -1,16 +1,19 @@
-# React + Vite
+# Installation
+- clone the repository using the git clone commamnd
+- navigate to the project directory (personal-showcase-app)
+- install dependancies using npm install
+- strat the server
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Usage
+- add a project by clicking add.
+- search a project by typing it on the searchbar.
 
-Currently, two official plugins are available:
+# Enhancements
+- the app has potential for future enhancements
+- > add project description
+- > add project images
+- > implement project editing and deletion
+- > add project dates
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# License
+- this project is an open source and available for personal and educational purposes.
